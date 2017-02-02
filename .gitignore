@@ -6,3 +6,4 @@ target/
 bin/
 .idea/
 notes-to-self.txt
+dependency-reduced-pom.xml

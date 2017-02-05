@@ -19,6 +19,8 @@ You can use this API directly with Maven, by adding the following dependency.
 
 # Operations provided
 
+There are currently 28 factory methods in the `CollectorsUtils` class, belonging to 10 categories. Another 7 factory methods are also available in `FunctionsUtils`, as helper methods for `CollectorsUtils`. 
+
 ## Find most frequent
 
 There are two collectors in this category. Those collectors extract the most seen elements from a stream. It returns all the values in a set or in a stream. 

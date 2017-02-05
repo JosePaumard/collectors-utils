@@ -1,6 +1,9 @@
 # Collectors Utils
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.paumard/collectors-utils/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.paumard/collectors-utils) 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.paumard/collectors-utils/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.paumard/collectors-utils)
+[![Build Status](https://travis-ci.org/JosePaumard/collectors-utils.png?branch=master)](https://travis-ci.org/JosePaumard/collectors-utils) 
+[![Coverage Status](https://coveralls.io/repos/JosePaumard/collectors-utils/badge.svg?branch=master&service=github)](https://coveralls.io/github/JosePaumard/collectors-utils?branch=master) 
+[![Javadocs](http://javadoc.io/badge/org.paumard/collectors-utils.svg)](http://javadoc.io/doc/org.paumard/collectors-utils)
 
 The CollectorsUtils API offers a family of collectors ready to be used in the Java 8 Stream API. On the model of the `Collectors` factory class available in the JDK, that offers about 40 collectors in about 12 categories, the `CollectorsUtils` factory class offers 28 collectors in 6 categories. 
 

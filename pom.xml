@@ -5,6 +5,15 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <name>org.paumard::collectors-utils</name>
+
+    <description>
+        Collectors Utils is a set of operations written on Java 8 Streams. It allows several basic and advanced
+        operations that are not available in the Java 8 JDK, and that have proven to be very useful in some cases.
+    </description>
+
+    <url>http://github.com/JosePaumard/collectors-utils</url>
+
     <groupId>org.paumard</groupId>
     <artifactId>collectors-utils</artifactId>
     <version>1.0</version>

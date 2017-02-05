@@ -18,20 +18,12 @@ package org.paumard.collectors;
 
 import org.paumard.streams.StreamsUtils;
 
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.toCollection;
-import static java.util.stream.Collectors.toList;
-import static java.util.stream.Collectors.toSet;
+import static java.util.stream.Collectors.*;
 
 
 /**
@@ -100,6 +92,7 @@ public class FunctionsUtils {
      *
      * @param collectionSupplier The supplier used to create the collection
      * @param <E>                The type of the elements of the stream
+     * @param <M>                The type of the collection
      * @return the function
      */
     public static <M extends Collection<E>, E> Function<Stream<E>, M>
